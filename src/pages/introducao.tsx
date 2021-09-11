@@ -1,8 +1,10 @@
-import { Flex } from '@chakra-ui/react'
+import { Box, Flex } from '@chakra-ui/react'
 import Body from '../components/Body'
 import Button from '../components/Button'
 import Header from '../components/Header'
 import Page from '../components/Page'
+import Video from '../components/Video'
+
 
 export default function Introducao() {
     return (
@@ -10,11 +12,13 @@ export default function Introducao() {
             <Flex
                 width='100%' 
                 direction='column' 
-                alignItems='center'  
-                gridRowGap='25px'
+                alignItems='center'
                 padding='16px'
             >
-                <Header as='h1' text='Introdução' color='#FE91FE' />
+                <Header as='h1' color='#FE91FE' marginBottom='30px'>
+                    Introdução
+                </Header>
+                <Video src='/videos/intro.mp4' />
                 <Body>
                     Criado pelos alunos Heitor Ramos, Joana Vianna e 
                     Renan Vieira, orientado pelos professores Bruno 

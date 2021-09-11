@@ -1,8 +1,9 @@
-import { Flex } from '@chakra-ui/react'
+import { Flex, Box } from '@chakra-ui/react'
 import Body from '../components/Body'
 import Button from '../components/Button'
 import Header from '../components/Header'
 import Page from '../components/Page'
+import Video from '../components/Video'
 
 export default function Campus() {
     return (
@@ -10,11 +11,13 @@ export default function Campus() {
             <Flex
                 width='100%' 
                 direction='column' 
-                alignItems='center'  
-                gridRowGap='25px'
+                alignItems='center'
                 padding='16px'
             >
-                <Header as='h1' text='Câmpus' color='#49DA85' />
+                <Header as='h1' color='#49DA85' marginBottom='30px'>
+                    Câmpus
+                </Header>
+                <Video src='/videos/campus.mp4' />
                 <Body>
                     O Campus Palhoça Bilíngue, fundado em 2013, é a primeira 
                     unidade da Rede Federal de Educação Profissional e 
@@ -24,6 +27,7 @@ export default function Campus() {
                     e extensão que busca viabilizar uma efetiva interação 
                     entre surdos e ouvintes no campo educacional e profissional.
                 </Body>
+                <Button as='a' to='http://palhoca.ifsc.edu.br/' shadowColor='#49DA85' marginBottom='30px'>Site do câmpus</Button>
                 <Button as='a' to='/'>Volte para o menu &gt;</Button>
             </Flex>
         </Page>

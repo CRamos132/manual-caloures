@@ -4,13 +4,14 @@ import NextLink from 'next/link'
 interface IProps extends FlexProps {
     children: React.ReactNode;
     to: string;
+    shadowColor?: string;
 }
 
-export default function Button({children, to, ...props}: IProps) {
+export default function Button({children, to, shadowColor = '#000000', ...props}: IProps) {
     return (
         <NextLink passHref href={to}>
             <Flex
-                boxShadow='-6px 6px 0px #000000'
+                boxShadow={`-6px 6px 0px ${shadowColor}`}
                 height='40px' 
                 width='260px'
                 border='2px solid #000000'

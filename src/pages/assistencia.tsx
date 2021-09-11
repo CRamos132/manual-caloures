@@ -14,7 +14,9 @@ export default function Assistencia() {
                 gridRowGap='25px'
                 padding='16px'
             >
-                <Header as='h1' text='Assistência Estudantil' color='#7CC7FE' />
+                <Header as='h1' color='#7CC7FE'>
+                    Assistência Estudantil
+                </Header>
                     <Body>
                         O IFSC disponibiliza assistência estudantil por meio de 
                         vários programas que podem lhe ajudar financeiramente. 

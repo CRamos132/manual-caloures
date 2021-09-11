@@ -1,11 +1,11 @@
 import { Flex, FlexProps } from "@chakra-ui/layout";
 
 interface IProps extends FlexProps {
-    text: string;
+    children: React.ReactNode;
     color: string;
 }
 
-export default function Header({color, text, ...props}: IProps) {
+export default function Header({color, children, ...props}: IProps) {
     return (
         <Flex 
             boxShadow={`-6px 6px 0px ${color}`} 
@@ -20,7 +20,7 @@ export default function Header({color, text, ...props}: IProps) {
             fontWeight='700'
             {...props}
         >
-            {text}
+            {children}
         </Flex>
     )
 }

@@ -13,7 +13,9 @@ export default function Palhoca() {
                 gridRowGap='25px'
                 padding='16px'
             >
-                <Header as='h1' text='Palhoça' color='#FED101' />
+                <Header as='h1' color='#FED101'>
+                    Palhoça
+                </Header>
                 <Button as='a' to='/'>Volte para o menu &gt;</Button>
             </Flex>
         </Page>
