@@ -1,4 +1,5 @@
 import { Flex } from '@chakra-ui/react'
+import Button from '../components/Button'
 import Header from '../components/Header'
 import Page from '../components/Page'
 
@@ -13,6 +14,7 @@ export default function Cursos() {
                 padding='16px'
             >
                 <Header as='h1' text='Cursos' color='#BE61CB' />
+                <Button as='a' to='/'>Volte para o menu &gt;</Button>
             </Flex>
         </Page>
     )
