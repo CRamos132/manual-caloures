@@ -1,4 +1,5 @@
 import { Flex } from '@chakra-ui/react'
+import Body from '../components/Body'
 import Button from '../components/Button'
 import Header from '../components/Header'
 import Page from '../components/Page'
@@ -14,6 +15,11 @@ export default function Assistencia() {
                 padding='16px'
             >
                 <Header as='h1' text='Assistência Estudantil' color='#7CC7FE' />
+                    <Body>
+                        O IFSC disponibiliza assistência estudantil por meio de 
+                        vários programas que podem lhe ajudar financeiramente. 
+                        Fique ligado no lançamento dos editais.
+                    </Body>
                 <Button as='a' to='/'>Volte para o menu &gt;</Button>
             </Flex>
         </Page>
