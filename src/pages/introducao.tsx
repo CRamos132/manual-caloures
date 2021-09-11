@@ -20,7 +20,7 @@ export default function Introducao() {
                     Renan Vieira, orientado pelos professores Bruno 
                     Panerai Velloso e Saionara Figueiredo e 
                     contemplado pelo Edital PROEX 03_2019 o Manual 
-                    de Calourxs Bilíngue tem como objetivo reunir 
+                    de Caloures Bilíngue tem como objetivo reunir 
                     algumas informações importantes sobre o IFSC 
                     Palhoça Bilíngue e para que dessa forma você 
                     possa aproveitar as atividades, serviços e 
