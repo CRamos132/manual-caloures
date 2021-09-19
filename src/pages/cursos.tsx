@@ -5,6 +5,7 @@ import Details from '../components/Details'
 import Header from '../components/Header'
 import Page from '../components/Page'
 import SubTitle from '../components/SubTitle'
+import Title from '../components/Title'
 import Video from '../components/Video'
 
 export default function Cursos() {
@@ -17,9 +18,9 @@ export default function Cursos() {
                 gridRowGap='25px'
                 padding='16px'
             >
-                <Header as='h1' color='#BE61CB' marginBottom='30px'>
+                <Title textColor='#BE61CB'>
                     Cursos
-                </Header>
+                </Title>
                 <Video src='/videos/cursos1.mp4' />
                 <Body>
                     No Campus Palhoça Bilíngue são ofertados cursos de 

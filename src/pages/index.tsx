@@ -15,11 +15,11 @@ const Home: NextPage = () => {
         gridRowGap='25px'
         padding='16px'
       >
-        <NextLink passHref href='/introducao'>
+        {/* <NextLink passHref href='/introducao'>
           <Header as='a' color='#FE91FE'>
             Introdução
           </Header>
-        </NextLink>
+        </NextLink> */}
         <NextLink passHref href='/campus'>
           <Header as='a' color='#49DA85'>Câmpus</Header>
         </NextLink>
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
           </Header>
         </NextLink>
         <NextLink passHref href='/sobre'>
-          <Header as='a' color='#FED101'>
+          <Header as='a' color='#FE91FE'>
             Sobre
           </Header>
         </NextLink>

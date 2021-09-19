@@ -4,6 +4,7 @@ import Button from '../components/Button'
 import Header from '../components/Header'
 import Page from '../components/Page'
 import SubTitle from '../components/SubTitle'
+import Title from '../components/Title'
 import Video from '../components/Video'
 
 export default function Assistencia() {
@@ -15,9 +16,9 @@ export default function Assistencia() {
                 alignItems='center' 
                 padding='16px'
             >
-                <Header as='h1' color='#7CC7FE'>
+                <Title textColor='#7CC7FE'>
                     Assistência Estudantil
-                </Header>
+                </Title>
                 <Box marginTop='30px'>
                     <Video src='/videos/assistencia.mp4' />
                 </Box>

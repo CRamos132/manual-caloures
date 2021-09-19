@@ -5,6 +5,7 @@ import Details from '../components/Details'
 import Header from '../components/Header'
 import Page from '../components/Page'
 import SubTitle from '../components/SubTitle'
+import Title from '../components/Title'
 import Video from '../components/Video'
 
 export default function Oportunidades() {
@@ -17,9 +18,9 @@ export default function Oportunidades() {
                 gridRowGap='25px'
                 padding='16px'
             >
-                <Header as='h1' color='#FE5D3C'>
+                <Title textColor='#FE5D3C'>
                     Oportunidades
-                </Header>
+                </Title>
                 <Details title='Intercâmbio' headerColor='#FE5D3C'>
                     <>
                         <Box marginTop='30px'>

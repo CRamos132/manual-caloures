@@ -3,6 +3,7 @@ import Body from '../components/Body'
 import Button from '../components/Button'
 import Header from '../components/Header'
 import Page from '../components/Page'
+import Title from '../components/Title'
 import Video from '../components/Video'
 
 export default function Campus() {
@@ -14,9 +15,9 @@ export default function Campus() {
                 alignItems='center'
                 padding='16px'
             >
-                <Header as='h1' color='#49DA85' marginBottom='30px'>
+                <Title textColor='#49DA85'>
                     Câmpus
-                </Header>
+                </Title>
                 <Video src='/videos/campus.mp4' />
                 <Body>
                     O Campus Palhoça Bilíngue, fundado em 2013, é a primeira 

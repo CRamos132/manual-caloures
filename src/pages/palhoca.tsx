@@ -4,6 +4,7 @@ import Button from '../components/Button'
 import Details from '../components/Details'
 import Header from '../components/Header'
 import Page from '../components/Page'
+import Title from '../components/Title'
 import Video from '../components/Video'
 
 export default function Palhoca() {
@@ -16,9 +17,9 @@ export default function Palhoca() {
                 gridRowGap='25px'
                 padding='16px'
             >
-                <Header as='h1' color='#FED101'>
+                <Title textColor='#FED101'>
                     Palhoça
-                </Header>
+                </Title>
                 <Details title='Transporte/Locomoção' headerColor='#FED101'>
                     <>
                         <Box marginTop='30px'>
