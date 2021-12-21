@@ -31,9 +31,12 @@ export default function Oportunidades() {
                             estudar em outro país por meio de programas 
                             e parcerias com outras instituições.
                         </Body>
-                        <SubTitle marginBottom='30px'>
+                        <SubTitle>
                             Propicie
                         </SubTitle>
+                        <Box marginTop='30px'>
+                            <Video src='/videos/oportunidades7.mp4' />
+                        </Box>
                         <Body marginTop='30px'>
                             Programa de Cooperação Internacional para 
                             Estudantes do IFSC (Propicie) é focado no 
@@ -49,21 +52,24 @@ export default function Oportunidades() {
                             Projeto Integrador equivalente ao último 
                             ano do curso.
                         </Body>
-                        <Box marginTop='30px'>
-                            <Video src='/videos/oportunidades2.mp4' />
-                        </Box>
                         <SubTitle marginTop='30px'>
                             Mobilidade de Estudantes Estrangeiros
                         </SubTitle>
+                        <Box marginTop='30px'>
+                            <Video src='/videos/oportunidades2.mp4' />
+                        </Box>
                         <Body marginTop='30px'>
                             É uma chamada formal para estudantes 
                             estrangeiros que desejam estudar o IFSC 
                             por um semestre.
                         </Body>
-                        <SubTitle marginBottom='30px'>
+                        <SubTitle>
                             Programa de Acompanhamento
                             de Intercambistas (&quot;Buddy&quot;)
                         </SubTitle>
+                        <Box marginTop='30px'>
+                            <Video src='/videos/oportunidades8.mp4' />
+                        </Box>
                         <Body marginTop='30px'>
                             O Programa de Acompanhamento e Apoio a 
                             Intercambistas Incoming, denominado 

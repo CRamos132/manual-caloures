@@ -29,7 +29,10 @@ export default function Cursos() {
                 </Body>
                 <Details title='Técnicos integrados' headerColor='#BE61CB'>
                     <>
-                        <Body marginTop='30px'>
+                        <Box marginTop='30px'>
+                            <Video src='/videos/cursos8.mp4' />
+                        </Box>
+                        <Body>
                             Os cursos técnicos integrados, chamado 
                             também de ensino médio técnico, oferece
                             a formação geral de maneira integrada 
@@ -130,10 +133,13 @@ export default function Cursos() {
                             18 anos, que já concluíram o ensino 
                             fundamental
                         </Body>
-                        <SubTitle marginBottom='30px'>
+                        <SubTitle>
                             Técnico em Manutenção
                             e Suporte em Informática
                         </SubTitle>
+                        <Box marginTop='30px'>
+                            <Video src='/videos/cursos9.mp4' />
+                        </Box>
                         <Body marginTop='30px'>
                             O curso Técnico em Manutenção e 
                             Suporte em Informática forma 
@@ -160,14 +166,14 @@ export default function Cursos() {
                 </Details>
                 <Details title='Graduação' headerColor='#BE61CB'>
                     <>
-                        <Box marginTop='30px'>
-                            <Video src='/videos/cursos5.mp4' />
-                        </Box>
                         <SubTitle marginTop='30px'>
                             Licenciatura em Pedagogia Bilíngue 
                             (Língua Brasileira de Sinais/Língua 
                             Portuguesa)
                         </SubTitle>
+                        <Box marginTop='30px'>
+                            <Video src='/videos/cursos5.mp4' />
+                        </Box>
                         <Body marginTop='30px'>
                             Forma educadores bilíngues aptos a 
                             trabalhar com a educação de alunos 
@@ -182,9 +188,12 @@ export default function Cursos() {
                             . As vagas (40) são ofertadas 
                             anualmente através do SISU.
                         </Body>
-                        <SubTitle marginBottom='30px'>
+                        <SubTitle>
                             Tecnologia em Produção Multimídia
                         </SubTitle>
+                        <Box marginTop='30px'>
+                            <Video src='/videos/cursos10.mp4' />
+                        </Box>
                         <Body marginTop='30px'>
                             O tecnólogo em Produção Multimídia 
                             desenvolve, planeja e executa 
@@ -204,13 +213,13 @@ export default function Cursos() {
                 </Details>
                 <Details title='Especialização' headerColor='#BE61CB'>
                     <>
-                        <Box marginTop='30px'>
-                            <Video src='/videos/cursos6.mp4' />
-                        </Box>
                         <SubTitle marginTop='30px'>
                             Educação de Surdos: Aspectos Políticos, 
                             Culturais e Pedagógicos
                         </SubTitle>
+                        <Box marginTop='30px'>
+                            <Video src='/videos/cursos6.mp4' />
+                        </Box>
                         <Body marginTop='30px'>
                             O curso de especialização em Educação 
                             para Surdos aborda aspectos políticos, 
@@ -231,13 +240,13 @@ export default function Cursos() {
                             vagas (40) são ofertadas através da 
                             análise socioeconômica e documental.
                         </Body>
-                        <Box marginTop='30px'>
-                            <Video src='/videos/cursos7.mp4' />
-                        </Box>
                         <SubTitle marginTop='30px'>
                             Tradução e Interpretação
                             de Libras/Português
                         </SubTitle>
+                        <Box marginTop='30px'>
+                            <Video src='/videos/cursos7.mp4' />
+                        </Box>
                         <Body marginTop='30px'>
                             Forma especialistas em Tradução e 
                             Interpretação entre a Língua Brasileira 

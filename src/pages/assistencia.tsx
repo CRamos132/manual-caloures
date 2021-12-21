@@ -30,6 +30,9 @@ export default function Assistencia() {
                 <SubTitle>
                     IVS
                 </SubTitle>
+                <Box marginTop='30px'>
+                    <Video src='/videos/assistencia1.mp4' />
+                </Box>
                 <Body >
                     O Índice de Vulnerabilidade Social, IVS, é calculado 
                     com base na renda e em agravantes sociais. O IVS pode 
@@ -41,6 +44,9 @@ export default function Assistencia() {
                 <SubTitle >
                     Auxílio Moradia
                 </SubTitle>
+                <Box marginTop='30px'>
+                    <Video src='/videos/assistencia2.mp4' />
+                </Box>
                 <Body>
                     Existe também o Auxílio-Moradia que tem como objetivo de 
                     custear parcialmente os gastos com aluguel e outros custos 
@@ -50,6 +56,9 @@ export default function Assistencia() {
                 <SubTitle>
                     Paevs
                 </SubTitle>
+                <Box marginTop='30px'>
+                    <Video src='/videos/assistencia3.mp4' />
+                </Box>
                 <Body>
                     O Programa de Atendimento ao Estudante em Vulnerabilidade 
                     Social (PAEVS) disponibiliza auxílio financeiro para 
